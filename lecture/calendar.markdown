@@ -225,7 +225,7 @@ title: Course calendar
     <td></td>
   </tr>
   <tr>
-    <td>11<br/>03/11-03/17</td>
+    <td>11</td>
     <td>
       Final exam on Tue, June 5, 1:30-3:18pm
       <br/>
