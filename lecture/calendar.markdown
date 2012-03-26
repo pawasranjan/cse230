@@ -15,7 +15,7 @@ title: Course calendar
 </thead>
 <tbody>
   <tr>
-    <td>1<br/>01/03-01/07</td>
+    <td>1</td>
     <td>   
       <a href="/lecture/introduction.html">Introduction</a>
       <br/>
@@ -40,7 +40,7 @@ title: Course calendar
     </td>
   </tr>
   <tr>
-    <td>2<br/>01/08-01/14</td>
+    <td>2</td>
     <td>
       <a href="/lecture/conditionals.html">Conditionals</a>
       <br/>
@@ -65,7 +65,7 @@ title: Course calendar
     </td>
   </tr>
   <tr>
-    <td>3<br/>01/15-01/21</td>
+    <td>3</td>
     <td>
       <a href="/lecture/functions.html">Functions</a>
       <br/>
@@ -88,7 +88,7 @@ title: Course calendar
     </td>
   </tr>
   <tr>
-    <td>4<br/>01/22-01/28</td>
+    <td>4</td>
     <td>
       <a href="/lecture/arrays.html">Arrays</a>
       </br>
@@ -115,7 +115,7 @@ title: Course calendar
     </td>
   </tr>
   <tr>
-    <td>5<br/>01/29-02/04</td>
+    <td>5</td>
     <td>
       <a href="/lecture/linked-lists.html">Linked lists</a>
       <br/>
@@ -136,7 +136,7 @@ title: Course calendar
     </td>
   </tr>
   <tr>
-    <td>6<br/>02/05-02/11</td>
+    <td>6</td>
     <td>
       <a href="/lecture/classes-and-object-orientation.html">Classes and object orientation</a>
       <br/>
@@ -161,7 +161,7 @@ title: Course calendar
     </td>
   </tr>
   <tr>
-    <td>7<br/>02/12-02/18</td>
+    <td>7</td>
     <td>
       <a href="/lecture/polymorphism.html">Polymorphism</a>
       <br/>
@@ -183,7 +183,7 @@ title: Course calendar
     </td>
   </tr>
   <tr>
-    <td>8<br/>02/19-02/25</td>
+    <td>8</td>
     <td>
       <a href="/lecture/template-metaprogramming.html">Template meta-programming</a>
       <br/>
@@ -204,7 +204,7 @@ title: Course calendar
     </td>
   </tr>
   <tr>
-    <td>9<br/>02/26-03/03</td>
+    <td>9</td>
     <td>
       <a href="/lecture/game-design.html">Game design</a>
     </td>
@@ -217,7 +217,7 @@ title: Course calendar
     <td></td>
   </tr>
   <tr>
-    <td>10<br/>03/04-03/10</td>
+    <td>10</td>
     <td>
     </td>
     <td>no quiz</td>
@@ -227,9 +227,9 @@ title: Course calendar
   <tr>
     <td>11<br/>03/11-03/17</td>
     <td>
-      Final exam on Wed, March 14, 3:30-5:18pm
+      Final exam on Tue, June 5, 1:30-3:18pm
       <br/>
-      in Dreese Labs 357
+      in Bolz 316
     </td>
     <td></td>
     <td></td>
