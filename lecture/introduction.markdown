@@ -86,7 +86,7 @@ int main()
 {% endhighlight %}
 
 <a href="http://www.kyon.pl/img/15506,next.html">
-![Hello, world!](/images/hello-world.jpg "Hello, world!")
+![Hello, world!](/cse230/images/hello-world.jpg "Hello, world!")
 </a>
 
 ## A second C++ program
