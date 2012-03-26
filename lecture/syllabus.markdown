@@ -23,8 +23,8 @@ You can see your grades on Carmen.
 ## Quizzes & exams
 
 There is no midterm, per se. The quizzes, collectively, are your
-midterm (so to speak). Quizzes occur every Thursday; they are short
-(we still have lecture on Thursdays, a quiz should only take at most
+midterm (so to speak). Quizzes occur every Wednesday; they are short
+(we still have lecture on Wednesdays, a quiz should only take at most
 20 minutes), and are designed to reinforce the topics.
 
 The final exam will look like several quizzes all in one test. So the
