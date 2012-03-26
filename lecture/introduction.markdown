@@ -19,7 +19,7 @@ practical reasons that are really not our concern.
 In many real-world situations, several programming languages are used to attack
 a problem. I'll give you a few examples.
 
-In Summer 2011, I interned with an organization that developed a
+In Summer 2011, my friend interned with an organization that developed a
 system which crawls the web, searching for and classifying news
 related to artificial intelligence. The system is written in several
 independent modules and several different programming languages:
@@ -32,11 +32,9 @@ independent modules and several different programming languages:
 * Javascript -- website interactivity
 * SQL -- database access
 
-This mix of languages is not atypical. My thesis research uses Clojure
-(for the AI and website), Java (for the graphical interface), R (for
-data analysis), and Javascript (for the website). A previous project I
-worked on used Haskell (for the AI), and C++ (for the graphical
-interface) and C (for video processing).
+This mix of languages is not atypical. For my work, I usually use Java with MATLAB 
+(for handling large matrices). I also use C/C++ together with MATLAB when higher 
+efficiency is required.
 
 * An engineer may use one or more of the following languages in practice: Matlab,
 Mathematica, R, AutoLISP, FORTRAN, C, C++, Java, Python, and C#.
