@@ -192,6 +192,7 @@ quits when the "return" in `main` is reached).
 The statement `int length, width, area;` creates three named `int`
 (integer) memory cells ("variables") with no specific initial values.
 
+
 The statement `length = 12;` assigns the value 12 to the memory cell
 named `length`.  Likewise, the statement `width = 6;` assigns 6 to the
 cell named `width`.
