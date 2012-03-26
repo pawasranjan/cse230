@@ -8,7 +8,7 @@ computer. Here I show how to install software on Windows (two options;
 you only need to choose one), and Mac OS X (one option).
 
 **Note: when the videos say "go to learn.artifice.cc", change that to "go to
-cse230.artifice.cc"**
+pawasranjan.github.com/cse230"**
 
 ## Windows
 
