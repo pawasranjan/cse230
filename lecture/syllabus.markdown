@@ -16,7 +16,7 @@ layout: default
 
 - Carmen quizzes: 10% (16 of them)
 
-- Final exam: 20% (Wed, March 14, 3:30-5:18pm, same room as lectures)
+- Final exam: 20% (Tue, June 5, 1:30-3:18pm, same room as lectures)
 
 You can see your grades on Carmen.
 
@@ -41,7 +41,7 @@ like, any time you'd like.
 
 Homeworks are always due on a Monday, by 11:00pm. Your homework
 should be sent to me by email:
-[joshuaeckroth@gmail.com](mailto:joshuaeckroth@gmail.com) (attach your
+[pawas.ranjan@gmail.com](mailto:pawas.ranjan@gmail.com) (attach your
 files; do not paste into Microsoft Word, just literally attach `.cpp`
 and `.h` files).
 
