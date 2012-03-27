@@ -42,4 +42,6 @@ You will need [Xcode 4 from Apple](http://developer.apple.com/xcode/);
 click "View in Mac App Store," or just search the Mac App Store.
 
 **I have just found out that Xcode is not free anymore. I apologise if you had to pay for a C++ compiler.
-A great free open source software is no more.**
+A great free open source software is no more
+[CodeBlocks](http://sourceforge.net/projects/codeblocks/files/Binaries/10.05/MacOS/codeblocks-10.05-p1-mac.dmg) is 
+an alternative that is (still) free, but it is not stable.**
