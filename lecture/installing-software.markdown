@@ -29,13 +29,17 @@ Choose one of these recommended options:
 ## Visual Studio Express
 
 [Go to this webpage](http://www.microsoft.com/express/Downloads/#2010-Visual-CPP),
-then click "Select language..." and choose your preferred language,
+then click "Visual C++ 2010 Express" and click Install Now,
 then "Run" the file that begins downloading.
+The Microsoft website may look a little different in the video, but the steps for configuring Visual Studio Express 
+are still the same.
 
 <iframe src="http://player.vimeo.com/video/21524538?title=0&byline=0&portrait=0" width="600" height="450" frameborder="0"></iframe>
 
 ## Mac OS X
 
 You will need [Xcode 4 from Apple](http://developer.apple.com/xcode/);
-click "View Xcode 4.2.1 for Lion on the Mac App Store," or just search
-the Mac App Store.
+click "View in Mac App Store," or just search the Mac App Store.
+
+**I have just found out that Xcode is not free anymore. I apologise if you had to pay for a C++ compiler.
+A great free open source software is no more.**
