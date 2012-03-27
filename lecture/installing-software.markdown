@@ -31,6 +31,7 @@ Choose one of these recommended options:
 [Go to this webpage](http://www.microsoft.com/express/Downloads/#2010-Visual-CPP),
 then click "Visual C++ 2010 Express" and click Install Now,
 then "Run" the file that begins downloading.
+
 The Microsoft website may look a little different in the video, but the steps for configuring Visual Studio Express 
 are still the same.
 
