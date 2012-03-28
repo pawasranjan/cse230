@@ -48,7 +48,7 @@ A great free open source software is no more.**
 **[CodeBlocks](http://sourceforge.net/projects/codeblocks/files/Binaries/10.05/MacOS/codeblocks-10.05-p1-mac.dmg) is 
 an alternative that is (still) free, but it is not stable.**
 
-## Linux
+## Learning to use Linux
 
 Basic linux commands
 
