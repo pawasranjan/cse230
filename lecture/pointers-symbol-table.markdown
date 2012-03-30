@@ -94,7 +94,7 @@ example (using the variables above):
 The "variable name" column is obvious, as is the "type" column. The
 "scope" columns means "where is this variable visible?" We learned
 about scope in the
-[variables and types](/lecture/variables-and-types.html) notes. The
+[variables and types](/cse230/lecture/variables-and-types.html) notes. The
 "memory location" column holds a number (written in hexadecimal
 notation: each digit has 16 possible values, using symbols 0-9 and
 a-f) which indicates where, in the computer's memory, the value of the
@@ -154,7 +154,7 @@ The `&` ("address of" or "reference") operator gives us a variable's
 memory location.
 
 <a href="http://xkcd.com/138/">
-![xkcd comic](/images/xkcd-pointers.png "xkcd comic")
+![xkcd comic](/cse230/images/xkcd-pointers.png "xkcd comic")
 </a>
 
 Now, `pn` "points to" `n`'s value. We can change `n`'s value by
@@ -293,7 +293,7 @@ location and changing the data there using the `*` symbol.
 
 Naturally, this is all *pointless* until we start solving problems
 that truly require pointers. We'll see that in <a
-href="/lecture/linked-lists.html">Linked lists</a>, if not sooner.
+href="/cse230/lecture/linked-lists.html">Linked lists</a>, if not sooner.
 
 ## Minimal example
 
@@ -461,7 +461,7 @@ cout << *px << endl; // crashes the program with a "segfault"
 {% endhighlight %}
 
 <a href="http://xkcd.com/371/">
-![xkcd comic](/images/xkcd-compiler-complaint.png "xkcd comic")
+![xkcd comic](/cse230/images/xkcd-compiler-complaint.png "xkcd comic")
 </a>
 
 ## Background: Why pointers?
@@ -497,7 +497,7 @@ cout << *px << endl; // crashes the program with a "segfault"
             }});
 </script>
 
-[Download the PDF](/pdf/pointers-background.pdf)
+[Download the PDF](/cse230/pdf/pointers-background.pdf)
 
 
 ## Conclusion
