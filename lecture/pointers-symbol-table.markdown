@@ -472,9 +472,9 @@ cout << *px << endl; // crashes the program with a "segfault"
                 
 <script type="text/javascript"> 
         var fp = new FlexPaperViewer(   
-            '/flash/FlexPaperViewer',
+            '/cse230/flash/FlexPaperViewer',
             'viewerPlaceHolder', { config : {
-            SwfFile : escape('/flash/pointers-background.swf'),
+            SwfFile : escape('/cse230/flash/pointers-background.swf'),
             Scale : 0.6, 
             ZoomTransition : 'easeOut',
             ZoomTime : 0.5,
