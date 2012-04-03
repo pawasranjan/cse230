@@ -33,9 +33,9 @@ the following call, the value of `number` will be 3 and the value of
 `amount_left` will be 11 (because if you take 3 quarters from 86 cents, that
 leaves 11 cents):
 
-{% highlight cpp %}
+```cpp
 compute_coins(25, number, amount_left);
-{% endhighlight %}
+```
 
 *Hint:* Use integer division and the `%` operator to implement this function.
 
