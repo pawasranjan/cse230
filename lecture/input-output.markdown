@@ -7,12 +7,12 @@ You remember using `cout` to display a message. You can use `cin` to do
 the opposite: get input from the user. It works like this (notice the
 `>>` of `cin`, which are opposite those of `cout`):
 
-{% highlight cpp %}
+```cpp
 int x;
 cout << "Give me a number: ";
 cin >> x;
 cout << "You gave me the number " << x << endl;
-{% endhighlight %}
+```
 
 You can use `cin` for integer types, floating point types, string types,
 and others. It's easiest if you ask the user to enter one value at a
@@ -21,17 +21,17 @@ time, pressing Enter between each value.
 To acquire multiple values at once, just string them together with
 `cin`:
 
-{% highlight cpp %}
+```cpp
 int x;
 double y;
 short z;
 cout << "Enter three numeric values: ";
 cin >> x >> y >> z;
-{% endhighlight %}
+```
 
 This is equivalent to:
 
-{% highlight cpp %}
+```cpp
 int x;
 double y;
 short z;
@@ -39,11 +39,11 @@ cout << "Enter three numeric values: ";
 cin >> x;
 cin >> y;
 cin >> z;
-{% endhighlight %}
+```
 
 More examples:
 
-{% highlight cpp %}
+```cpp
 double a;
 int x;
 bool p;
@@ -56,7 +56,7 @@ cin >> x;
     
 cout << "Enter a 0 for FALSE, anything else for TRUE: ";
 cin >> p;
-{% endhighlight %}
+```
 
 `cin` only collects input up to the first space or newline. It can be
 used to obtain multiple inputs. It knows when to delimit (i.e. start
@@ -65,35 +65,35 @@ tab).
 
 Here's the same example as above, but using just one `cin`:
 
-{% highlight cpp %}
+```cpp
 double a;
 int x;
 bool p;
     
 cout << "Enter a decimal, integer, and boolean value: ";
 cin >> a >> x >> p;
-{% endhighlight %}
+```
 
 We can get strings in the usual way:
 
-{% highlight cpp %}
+```cpp
 string word;
 
 cout << "Enter a word: ";
 cin >> word;
-{% endhighlight %}
+```
 
 However, using that technique, you cannot get strings that have
 spaces. To get strings that have spaces in them, we have to use this
 method:
 
-{% highlight cpp %}
+```cpp
 string s;
 
 // get a whole line of text from the user
 // and save into the variable s
 getline(cin, s);
-{% endhighlight %}
+```
 
 That method gets a whole line of text, which could have spaces.
 
@@ -106,14 +106,14 @@ precision of the value will not change; we will only change the
 printed precision. The following will show three digits after the
 decimal point:
  
-{% highlight cpp %}
+```cpp
 cout.precision(3);
 cout.setf(ios::fixed, ios::floatfield);
-{% endhighlight %}
+```
 
 Here is a complete example:
 
-{% highlight cpp %}
+```cpp
 #include <iostream>
 using namespace std;
 int main()
@@ -128,7 +128,7 @@ int main()
     cout << "You entered " << x << endl;
     return 0;
 }
-{% endhighlight %}
+```
 
 For example,
 
