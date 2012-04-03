@@ -3,7 +3,7 @@ title: Quiz 1 sample
 layout: default
 ---
 
-** Sample questions for in-class quiz on April 4th (Wednesday) **
+**Sample questions for in-class quiz on April 4th (Wednesday)**
 
 Read the following code, paying particular attention to the
 comments. If a comment indicates that code should be added, write code
