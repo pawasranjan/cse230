@@ -43,7 +43,7 @@ public:
 
 Now we can make a single node:
 
-{% highlight cpp %}
+{% highlight %}
 Node* n = new Node;
 n->value = -130.569;
 {% endhighlight %}
