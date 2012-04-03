@@ -30,7 +30,7 @@ all work out.
 
 Here is our definition, in C++, of the factorial function just defined:
 
-{% highlight cpp %}
+```cpp
 int factorial(int n)
 {
     if(n == 0)
@@ -42,7 +42,7 @@ int factorial(int n)
         return (n * factorial(n - 1));
     }
 }
-{% endhighlight %}
+```
 
 Notice that the code matches perfectly with the mathematical definition. This
 is quite nice, since it's clean and simple (like math, usually).
@@ -51,13 +51,13 @@ Anything that can be done with recursion can be done with regular loops, and
 vice versa. Consider the simple algorithm of adding two numbers that involves
 adding 1 each time:
 
-{% highlight cpp %}
+```cpp
 int a = 10, b = 21;
 for(; b > 0; b--)
 {
     a = a + 1;
 }
-{% endhighlight %}
+```
 
 That loop just adds one each time to `a`, and decreases 1 from `b` until `b` is
 0. The result is the value of `b` is added to `a`. Not the most efficient
@@ -66,7 +66,7 @@ addition.
 
 This same iterative method can be done recursively instead, using no loops:
 
-{% highlight cpp %}
+```cpp
 int add(int a, int b)
 {
     if(b == 0)
@@ -78,7 +78,7 @@ int add(int a, int b)
         return (1 + add(a, b - 1));
     }
 }
-{% endhighlight %}
+```
 
 So far, we have not seen the benefit of recursion. But it's important to note
 that we can have recursion, and not have loops, but be able to accomplish all
