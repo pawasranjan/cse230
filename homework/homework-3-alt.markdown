@@ -3,6 +3,8 @@ title: Homework 3 Alternative - Stack calculator
 layout: default
 ---
 
+**Due Apr 23, 11 pm (Mon)**
+
 Your task is to program a calculator that uses a stack. These
 calculators use "postfix" notation or "Reverse Polish notation (RPN)"
 for their mathematical expressions.
