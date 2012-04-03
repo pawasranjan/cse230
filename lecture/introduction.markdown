@@ -74,7 +74,7 @@ that many major applications are written in C++.
 It is standard practice that the first program you write in a new programming
 language should simply print the message "Hello, world!"
 
-{% highlight cpp %}
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -83,7 +83,7 @@ int main()
     cout << "Hello, world!" << endl;
     return 0;
 }
-{% endhighlight %}
+```
 
 <a href="http://www.kyon.pl/img/15506,next.html">
 ![Hello, world!](/cse230/images/hello-world.jpg "Hello, world!")
@@ -94,7 +94,7 @@ int main()
 Now with that out of the way, here is a slightly more useful program that
 computes the area of a rectangle.
 
-{% highlight cpp %}
+```cpp
 // rectangle_area.cpp
 // Compute the area of a rectangle.
 #include <iostream>
@@ -109,7 +109,7 @@ int main() {
     cout << " is " << area;
     return 0;
 }
-{% endhighlight %}
+```
 
 When this program is run, the computer screen will display
 
