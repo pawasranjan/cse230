@@ -1,5 +1,8 @@
 pygments: true
 permalink: none
-markdown: rdiscount
+markdown: redcarpet
 rdiscount:
   extensions: [smart]
+redcarpet:
+  extensions: [autolink, no_intraemphasis, fenced_code, gh_blockcode]
+
