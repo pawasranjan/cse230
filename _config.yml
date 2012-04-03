@@ -2,4 +2,4 @@ pygments: true
 permalink: none
 markdown: redcarpet
 redcarpet:
-    extensions: [autolink, no_intra_emphasis, fenced_code]
+    extensions: [autolink, no_intraemphasis, fenced_code, gh_blockcode]
