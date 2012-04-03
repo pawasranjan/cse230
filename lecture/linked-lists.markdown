@@ -43,7 +43,7 @@ public:
 
 Now we can make a single node:
 
-{% highlight cpp %}
+{% highlight ruby %}
 Node* n = new Node;
 n->value = -130.569;
 {% endhighlight %}
