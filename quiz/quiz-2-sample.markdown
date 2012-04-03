@@ -3,6 +3,8 @@ title: Quiz 2 sample
 layout: default
 ---
 
+**Sample question for in-class quiz on April 11th (Wednesday)**
+
 Study the following code. It *should* meet the following
 specification, but it does not. Your task is to rewrite the code so
 that it is correct.
@@ -18,7 +20,7 @@ Here is a program that has the `is_prime` function and a `main`
 function. There are several errors in both functions. Rewrite the code
 so it is correct.
 
-{% highlight cpp %}
+```cpp
 include <iostream>
 using namespace std;
 
@@ -62,4 +64,4 @@ void is_prime()
     }
     return prime;
 }
-{% endhighlight %}
+```
