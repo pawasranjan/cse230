@@ -35,7 +35,7 @@ of some chunk of code is what the code *does*. For example, the
 of a number.
 
 <a href="http://hackles.org/strips/cartoon37.png">
-![hackles comic](/images/methods.png "hackles comic")
+![hackles comic](/cse230/images/methods.png "hackles comic")
 </a>
  
 ## Where to write your own functions
