@@ -18,7 +18,7 @@ Use coin denominations of 25 cents (quarters), 10 cents (dimes), and 1 cent
 (pennies). Do not use nickel and half-dollar coins. Your program will use the
 following function (among others if you wish):
 
-{% highlight cpp %}
+```cpp
 void compute_coin(int coin_value, int& number, int& amount_left);
 // Precondition: 0 < coin_value < 100; 0 <= amount_left < 100.
 //
@@ -26,14 +26,14 @@ void compute_coin(int coin_value, int& number, int& amount_left);
 // of coins denomination coin_value cents that can be obtained
 // from amount_left; amount_left has been decreased by the value
 // of the coins, that is, decreased by number*coin_value.
-{% endhighlight %}
+```
 
 For example, suppose the value of the variable `amount_left` is 86. Then, after
 the following call, the value of `number` will be 3 and the value of
 `amount_left` will be 11 (because if you take 3 quarters from 86 cents, that
 leaves 11 cents):
 
-```
+```cpp
 compute_coins(25, number, amount_left);
 ```
 
