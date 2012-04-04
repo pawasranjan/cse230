@@ -51,15 +51,19 @@ n->value = -130.569;
 In oder to keep track of the contents/length of the list, we create
 another class:
 
+
 {% highlight cpp %}
+
 class List {
 public:
     Node* first;
     int count;
 };
+
 {% endhighlight %}
 
 And now we can make a bona fide list:
+
 
 {% highlight cpp %}
 List* mylist = new List;
