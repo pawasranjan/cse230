@@ -20,7 +20,7 @@ Here is a program that has the `is_prime` function and a `main`
 function. There are several errors in both functions. Rewrite the code
 so it is correct.
 
-```cpp
+{% highlight cpp %}
 include <iostream>
 using namespace std;
 
@@ -64,4 +64,4 @@ void is_prime()
     }
     return prime;
 }
-```
+{% endhighlight %}
