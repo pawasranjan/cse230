@@ -10,7 +10,7 @@ comments. If a comment indicates that code should be added, write code
 in the blank space following the comment. Your code should perform the
 task described in the comments.
 
-```cpp
+{% highlight cpp %}
 #include <iostream>
 
 // gives us access to exp(), pow(), sqrt(), log(), log10(), etc.
@@ -62,27 +62,27 @@ int main()
 
     return 0;
 }
-```
+{% endhighlight %}
 
 
 Given that `bool p = true, q = false`, is the following expression
 true or false?
 
-```cpp
+{% highlight cpp %}
 !((p && q) || (p && !q)) && p
-```
+{% endhighlight %}
 
 Given that `int x = 4, y = 3` and `double z = 1.1`, is the following
 expression true or false?
 
-```cpp
+{% highlight cpp %}
 ((x >= y) && !(x/y > z)) || (x%y < z)
-```
+{% endhighlight %}
 
 In the following code, for what values of `z` (an integer) make the
 message `Burp` (and no other message) appear only once on the screen?
 
-```cpp
+{% highlight cpp %}
 if(z < 0)
 {
     if(z < 3)
@@ -113,12 +113,12 @@ else
         cout << "Burp" << endl;
     }
 }
-```
+{% endhighlight %}
 
 In the following code, how many times is the conditional of the loop
 evaluated?
 
-```cpp
+{% highlight cpp %}
 int a = 5, b = 6;
 while(a < b)
 {
@@ -127,6 +127,6 @@ while(a < b)
     b--;
     a = a / b;
 }
-```
+{% endhighlight %}
 
 In the previous code, what are the final values of `a` and `b`?
