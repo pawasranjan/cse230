@@ -3,17 +3,19 @@ title: Homework 5
 layout: default
 ---
 
-From the book, p. 606, q. 10. Due Feb 13, 11pm (Mon).
+From the book, p. 606, q. 10. 
+
+**Due May 7, 11pm (Mon).**
 
 Skills needed to complete this assignment:
 
   - Creating classes and using object-oriented program design
-    ([lecture notes](/lecture/classes-and-object-orientation.html))
+    ([lecture notes](/cse230/lecture/classes-and-object-orientation.html))
 
   - Splitting code into several files
-    ([lecture notes](/lecture/splitting-code.html))
+    ([lecture notes](/cse230/lecture/splitting-code.html))
 
-(See [rectangle.cpp](/code/rectangle-cpp.html) for an example from
+(See [rectangle.cpp](/cse230/code/rectangle-cpp.html) for an example from
 class that's similar to this assignment.)
 
 Write a rational number class. This problem is revisited in Chapter 11
@@ -125,4 +127,3 @@ files):
 
 Submit to me all three files (either in a ZIP or three email
 attachments).
-
