@@ -3,7 +3,7 @@ title: Homework 7
 layout: default
 ---
 
-Due Feb 27, 11pm (Mon).
+**Due May 21, 11pm (Mon).**
 
   - Creating classes and using object-oriented program design
     ([lecture notes (part 1)](/cse230/lecture/classes-and-object-orientation.html)
