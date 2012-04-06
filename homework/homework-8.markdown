@@ -3,22 +3,22 @@ title: Homework 8
 layout: default
 ---
 
-Due March 5, 11pm (Mon).
+**Due May 29, 11pm (Mon).**
 
 Skills needed to complete this assignment:
 
   - Creating classes and using object-oriented program design
-    ([lecture notes (part 1)](/lecture/classes-and-object-orientation.html)
+    ([lecture notes (part 1)](/cse230/lecture/classes-and-object-orientation.html)
     and
-    [lecture notes (part 2)](/lecture/classes-and-object-orientation-2.html))
+    [lecture notes (part 2)](/cse230/lecture/classes-and-object-orientation-2.html))
 
-  - Using polymorphism ([lecture notes](/lecture/polymorphism.html))
+  - Using polymorphism ([lecture notes](/cse230/lecture/polymorphism.html))
 
   - Use of maps and sets to store pointers
-    ([lecture notes](/lecture/maps-sets-etc.html))
+    ([lecture notes](/cse230/lecture/maps-sets-etc.html))
 
   - Splitting code into several files
-    ([lecture notes](/lecture/splitting-code.html))
+    ([lecture notes](/cse230/lecture/splitting-code.html))
     
 This assignment extends Homework 7. Ideally, you will start with your
 HW 7 code and extend it, so that you have the experience of adapting
