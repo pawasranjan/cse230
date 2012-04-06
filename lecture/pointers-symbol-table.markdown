@@ -11,7 +11,7 @@ on, their use can become quite complex.
 
 Imagine we have the following (simplistic) program:
 
-```cpp
+{% highlight cpp %}
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -33,7 +33,7 @@ int main()
 
     return 0;
 }
-```
+{% endhighlight %}
 
 This program has five variables: `a, b, c, n, sum`. The first three
 have the "type" `double` while the latter two have the type
@@ -135,9 +135,9 @@ We can create a new variable that "points to" `n`'s value. This is a
 pointer. Since `n` is an integer, we want an integer pointer, written
 `int*`. Let's make that pointer:
 
-```cpp
+{% highlight cpp %}
 int* pn;
-```
+{% endhighlight %}
 
 I call it `pn` because it will point to `n`'s value. Right now,
 however, it doesn't point to `n`'s value. We see from the symbol table
@@ -146,9 +146,9 @@ write that number in our code, because that number (that memory
 location) will probably change every time we run our program. So let's
 just ask for `n`'s memory location:
 
-```cpp
+{% highlight cpp %}
 pn = &n;  // ask for n's memory location, save it in the variable pn
-```
+{% endhighlight %}
 
 The `&` ("address of" or "reference") operator gives us a variable's
 memory location.
@@ -160,12 +160,12 @@ memory location.
 Now, `pn` "points to" `n`'s value. We can change `n`'s value by
 "dereferencing" the pointer:
 
-```cpp
+{% highlight cpp %}
 *pn = 5;
 
 // is the same as:
 n = 5;
-```
+{% endhighlight %}
 
 The `*` ("dereference") operator, when it's not attached to a type
 (like `int*`), means in so many words, "look at the memory location
@@ -176,7 +176,7 @@ In this example, it's the same operation as `n = 5`.
 
 If we are using classes, such as:
 
-```cpp
+{% highlight cpp %}
 class Person
 {
 public:
@@ -185,11 +185,11 @@ public:
     double height; // in cm
     double weight; // in kg
 };
-```
+{% endhighlight %}
 
 then we can create pointers in the same way:
 
-```cpp
+{% highlight cpp %}
 int main()
 {
     Person vignesh;
@@ -204,7 +204,7 @@ int main()
     
     return 0;
 }
-```
+{% endhighlight %}
 
 Notice that when we use classes and pointers together, we use the `->`
 symbols to refer to data inside the class, rather than the `.` The
@@ -281,9 +281,9 @@ memory locations are of the same type (32 bits or 64 bits).)
 
 Since a pointer is a variable, too, you can point to a pointer:
 
-```cpp
+{% highlight cpp %}
 int** ppn = &pn;
-```
+{% endhighlight %}
 
 And so on, ad nauseum. The lesson is, pointers are not magical,
 they're just variables with values that can be used in a particularly
@@ -299,7 +299,7 @@ href="/cse230/lecture/linked-lists.html">Linked lists</a>, if not sooner.
 
 This example was shown in class.
 
-```cpp
+{% highlight cpp %}
 #include <iostream>
 using namespace std;
 
@@ -326,7 +326,7 @@ int main()
 
     return 0;
 }
-```
+{% endhighlight %}
 
 Output:
 
@@ -350,10 +350,10 @@ we wanted to create variables in a loop, or variables that aren't
 deleted behind our backs (when the variable's scope ends)? We use the
 `new` operator:
 
-```cpp
+{% highlight cpp %}
 // reserve space for an integer, with no name
 new int;
-```
+{% endhighlight %}
 
 Well that does what we wanted (reserve some space for an integer) but
 we have no way of using that reserved space. Why? Because we don't
@@ -363,20 +363,20 @@ It turns out that the `new` operator actually returns a pointer (a
 memory address) so we can save that and then use the pointer to put
 values into the space that was reserved.
 
-```cpp
+{% highlight cpp %}
 // reserve space for an integer, with no name;
 // but save the address of that space as px
 int *px = new int;
 
 // now put a value in that reserved space
 *px = 5;
-```
+{% endhighlight %}
 
 When we use `new` we should later use `delete` to free up the space.
 
-```cpp
+{% highlight cpp %}
 delete px;
-```
+{% endhighlight %}
 
 Now that space is no longer ours to use (even though `px` still points
 to it).  So we should only delete space when we are done with it.
@@ -389,13 +389,13 @@ operator.
 Recall the rules of scope: If you have a variable `x` inside some
 braces, like so:
 
-```cpp
+{% highlight cpp %}
 {
    int x = 5;
    ...
 }
 // x no longer exists (outside those braces)
-```
+{% endhighlight %}
 
 then `x` is inaccessible (the variable is forgotten) when its
 enclosing block (braces) ends. For example, functions have their own
@@ -409,7 +409,7 @@ will be ours to use, regardless of scope, for as long as we wish
 
 Note, this also works on classes:
 
-```cpp
+{% highlight cpp %}
 Person* p = new Person;
 p->name = "Mary S.";
 p->age = 45;
@@ -417,7 +417,7 @@ p->age = 45;
 
 // later:
 delete p;
-```
+{% endhighlight %}
 
 ## Blinky pointer fun (no, really)
 
@@ -455,10 +455,10 @@ If a pointer points to an invalid location (a memory location not
 accessible by our program), and that pointer is dereferenced, the
 program will crash with a "segmentation fault."
 
-```cpp
+{% highlight cpp %}
 int* px = NULL;
 cout << *px << endl; // crashes the program with a "segfault"
-```
+{% endhighlight %}
 
 <a href="http://xkcd.com/371/">
 ![xkcd comic](/cse230/images/xkcd-compiler-complaint.png "xkcd comic")
@@ -522,4 +522,3 @@ interesting data structures, such as linked lists.
 > backlash from the parsimonious who resent the fact that a perfectly
 > respectable, physical byte at address 0 is pointlessly ghettoed. --
 > *The computer contradictionary*
-
