@@ -92,28 +92,28 @@ program.
 types do not represent values precisely. It is not a good idea to do
 this:
 
-```cpp
+{% highlight cpp %}
 double x;
 cin >> x;
 if(x == 2.6) // NOT GOOD
 {
     // blah...
 }
-```
+{% endhighlight %}
 
 The value 2.6 cannot be represented precisely, so even if the user inputs 2.6,
 it may not be stored as 2.6. Thus we cannot test if the value is "exactly" 2.6.
 We must check, instead, if the value is "close" to 2.6, using the following
 approach:
 
-```cpp
+{% highlight cpp %}
 double x;
 cin >> x;
 if(x < 2.60001 && x > 2.59999) // YES, GOOD
 {
     // blah...
 }
-```
+{% endhighlight %}
 
 For more gory details, see [this article](http://www.cygnus-software.com/papers/comparingfloats/comparingfloats.htm) or the [Wikipedia article](http://en.wikipedia.org/wiki/Floating_point).
 
@@ -134,7 +134,7 @@ make them larger or smaller, ask how long they are, etc.
 To use strings, you have to `#include <string>` Here is an example using a
 `string`:
 
-```cpp
+{% highlight cpp %}
 #include <iostream>
 #include <string>  // necessary to use strings
 using namespace std;
@@ -147,7 +147,7 @@ int main()
 
     return 0;
 }
-```
+{% endhighlight %}
 
 ## Character type
 
@@ -163,7 +163,7 @@ letters and numbers. When a user types a single symbol, and your code is
 supposed to capture that symbol and check if it equals something or another,
 then you want to use a `char`. Here is an example:
 
-```cpp
+{% highlight cpp %}
 char c;
 cout << "Enter a symbol: ";
 cin >> c;
@@ -177,7 +177,7 @@ if(c == '!')
     cout << "You typed a bang!" << endl;
 }
 // etc...
-```
+{% endhighlight %}
 
 Notice that when we check if a `char` variable equals some particular symbol,
 we put the symbol in single quotes, like so: `'x'` or `'!'`.
@@ -190,11 +190,11 @@ If you knew which ASCII symbol you wanted (e.g., if you knew *x* was 120), then
 you could set a `char` variable equal to an integer, and it would be the same
 as setting the variable equal to the corresponding symbol.
 
-```cpp
+{% highlight cpp %}
 // these are equivalent assignments
 char c = 'x';
 char d = 120;
-```
+{% endhighlight %}
 
 "Strings" are literally a collection of `char` values ("strung" together).
 
@@ -253,25 +253,25 @@ Here are the rules for naming variables:
 You can declare multiple variables in one line (separated by commas), if they
 are all of the same type:
 
-```cpp
+{% highlight cpp %}
 double a, b, c, d, e, f, g;
 int x, y, z;
-```
+{% endhighlight %}
 
 You can also give them values:
 
-```cpp
+{% highlight cpp %}
 double a = 1.1, b = 2.2, c = 3.3;
 int x = 1, y = 2, z = 3;
-```
+{% endhighlight %}
 
 Declare and define constant values like this (using all caps for the variable
 names):
 
-```cpp
+{% highlight cpp %}
 const double PI = 3.14159;
 const int MULTIPLIER = 5;
-```
+{% endhighlight %}
 
 Because these variables have the modifier `const`, you are not allowed to
 change their values (the compiler will display an error if you try).
@@ -289,7 +289,7 @@ block as the earlier variable.
 
 Here is an example:
 
-```cpp
+{% highlight cpp %}
 {
     cout << "hello" << endl;  // x does not exist
     int x;                    // now x exists
@@ -307,5 +307,4 @@ Here is an example:
     cout << x << endl;        // still original
 }
 cout << "goodbye" << endl;    // no more x
-```
-
+{% endhighlight %}
