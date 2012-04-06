@@ -35,7 +35,7 @@ You can use the following shorthand for changing the values of
 variables. The shorthand form is shown, then the equivalent form is
 described in comments.
 
-```cpp
+{% highlight cpp %}
 double a = 0.0;
 int x = 0;
 x++;            // same as: x = x + 1;
@@ -50,7 +50,7 @@ x %= 2;         // same as: x = x % 2;
     
 a += 2.0;       // same as: a = a + 2.0;
 // etc.
-```
+{% endhighlight %}
 
 What's the difference between `x++` and `++x` (or `x--` and `--x`)? An
 assignment expression actually has a value. So `x = 5` turns into the
@@ -67,7 +67,7 @@ other hand, if we have `y = ++x` then `y` is 6 and `x` is 6.
 
 Variables of type `bool` have the following special operators:
 
-```cpp
+{% highlight cpp %}
 bool p = true;
 bool q = false;
 bool r;
@@ -75,14 +75,14 @@ r = !p;        // "!" means "not" or "opposite", so r == false
 r = p || q;    // "||" means "or", so r == true
 r = p && q;    // "&&" means "and", so r == false
 r = q || (!p)  // r == false
-```
+{% endhighlight %}
 
 ## Mathy example
 
 This example shows use of several mathematical functions and
 operators.
 
-```cpp
+{% highlight cpp %}
 // math example
 #include <iostream>
 #include <cmath>
@@ -99,11 +99,11 @@ int main()
 
     return 0; // exit program
 }
-```
+{% endhighlight %}
 
 Here is the example again, but this time with a variable `x`:
 
-```cpp
+{% highlight cpp %}
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -126,7 +126,7 @@ int main()
 
     return 0; // exit program
 }
-```
+{% endhighlight %}
 
 In these examples, various useful math functions were used. Here is a larger list. These all come from `cmath` (which must be "included").
 
@@ -143,7 +143,7 @@ In these examples, various useful math functions were used. Here is a larger lis
 
 This code converts teaspoons to other units of measurement.
 
-```cpp
+{% highlight cpp %}
 #include <iostream>
 using namespace std;
 
@@ -171,5 +171,5 @@ int main()
 
     return 0;
 }
-```
+{% endhighlight %}
 
