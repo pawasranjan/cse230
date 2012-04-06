@@ -15,7 +15,7 @@ types; you can think of a class as a composite of other types.
 
 For example, here we define the `Person` class:
 
-```cpp
+{% highlight cpp %}
 // this goes above "main()"
 
 class Person
@@ -26,14 +26,14 @@ public:
     double height; // in cm
     double weight; // in kg
 };
-```
+{% endhighlight %}
 
 Once we have defined the class, we can create *objects* of that
 type. In this case, the class is `Person` (a general idea or
 classification) and each object will represent some *particular*
 person:
 
-```cpp
+{% highlight cpp %}
 int main()
 {
     Person vignesh;
@@ -46,7 +46,7 @@ int main()
     
     return 0;
 }
-```
+{% endhighlight %}
 
 Classes will appear again in the
 [function lecture notes](/lecture/functions.html) where we'll add
