@@ -3,7 +3,7 @@ title: Homework 4
 layout: default
 ---
 
-Due Feb 8, 11pm (Wed).
+**Due Apr 30, 11pm (Wed).**
 
 Your task is to evaluate expressions like `3.4-(2.6+5.0)` and
 `sin(-1.0)*2.0` and `-9.4^log(exp(cos(4.5)-2.3+3.5))`. These
@@ -148,7 +148,7 @@ You need to download some files (.cpp files and .h files) and
 load these as your CodeBlocks/Visual Studio/Xcode "project."
 
 Here is a ZIP package with all the files you need:
-[hw4.zip](/homework/hw4.zip)
+[hw4.zip](/cse230/homework/hw4.zip)
 
 In there you'll also find `main.cpp` &mdash; use that file to begin
 writing your own code. You'll see some instructions in the file. In
@@ -157,9 +157,9 @@ expression and have it evaluated (you won't need to modify that loop;
 if you provide the rest of the code, the "interactive" parsing feature
 should work properly).
 
-I have created two videos for setting up Windows IDEs. Watch the
-[CodeBlocks video](/video/homework-4-codeblocks.html) or the
-[VisualStudio video](/video/homework-4-visualstudio.html).
+Videos for setting up Windows IDEs. Watch the
+[CodeBlocks video](/cse230/video/homework-4-codeblocks.html) or the
+[VisualStudio video](/cse230/video/homework-4-visualstudio.html).
 
 ## Your task
 
