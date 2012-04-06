@@ -3,19 +3,21 @@ title: Homework 6
 layout: default
 ---
 
-From the book, p. 875 q. 9. Due Feb 20, 11pm (Mon).
+From the book, p. 875 q. 9. 
+
+**Due May 15, 11pm (Mon).**
 
 Skills needed to complete this assignment:
 
   - Creating classes and using object-oriented program design
-    ([lecture notes (part 1)](/lecture/classes-and-object-orientation.html)
+    ([lecture notes (part 1)](/cse230/lecture/classes-and-object-orientation.html)
     and
-    [lecture notes (part 2)](/lecture/classes-and-object-orientation-2.html))
+    [lecture notes (part 2)](/cse230/lecture/classes-and-object-orientation-2.html))
 
-  - Using polymorphism ([lecture notes](/lecture/polymorphism.html))
+  - Using polymorphism ([lecture notes](/cse230/lecture/polymorphism.html))
 
   - Splitting code into several files
-    ([lecture notes](/lecture/splitting-code.html))
+    ([lecture notes](/cse230/lecture/splitting-code.html))
 
 Banks have many different types of accounts often with different rules
 for fees associated with transactions such as withdrawals. Customers
@@ -81,7 +83,7 @@ A strategy for finishing this assignment is to work on the `BankAccount` and
 
 Here is a diagram of the classes.
 
-![Bank Account UML diagram](/images/bankaccount-uml.png "Bank Account UML diagram")
+![Bank Account UML diagram](/cse230/images/bankaccount-uml.png "Bank Account UML diagram")
 
 Note, if you want `balance` not to be `public` in the `BankAccount` class then
 you'll actually need to make it `protected`. This ensures that it will be
