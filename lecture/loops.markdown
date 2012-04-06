@@ -45,23 +45,23 @@ In C++, the simplest loop is the `while` loop. Here is a `while` loop
 that prints the first line of the song, forever and ever
 (infinitely-many copies of this same lyric are shown on the screen):
 
-```cpp
+{% highlight cpp %}
 while(true)
 {
     cout << "99 bottles of beer on the wall... "
          << "pass it around, 98 bottles..."
          << endl;
 }
-```
+{% endhighlight %}
 
 The general format for a `while` loop is:
 
-```cpp
+{% highlight cpp %}
 while(conditional)
 {
     // do stuff...
 }
-```
+{% endhighlight %}
 
 where `conditional` is the same kind of conditional used in `if`
 statements. In other words, `conditional` must be something that is a
@@ -93,12 +93,12 @@ A loop can be stopped by two techniques. The first technique will be
 discussed now. A loop stops when the conditional is false. Consider
 this loop:
 
-```cpp
+{% highlight cpp %}
 while(x != 0)
 {
     // do stuff...
 }
-```
+{% endhighlight %}
 
 This loop is stopped only when `x == 0` because that is the only case
 when the conditional is false. This suggests that somewhere inside the
@@ -107,7 +107,7 @@ loop, `x` has to change such that, eventually, `x` is given the value
 
 Consider the bottles of beer again. Here is a loop that mostly works:
 
-```cpp
+{% highlight cpp %}
 int n = 99;
 while(n > 0)
 {
@@ -117,7 +117,7 @@ while(n > 0)
          << endl;
     n--;
 }
-```
+{% endhighlight %}
 
 See how in that case, the conditional `n > 0` does eventually become
 false, because `n` is decreased each time the loop executes.
@@ -125,7 +125,7 @@ false, because `n` is decreased each time the loop executes.
 In the last code segment, the final bottles-of-beer lyric is not
 handled properly. Here is a fix:
 
-```cpp
+{% highlight cpp %}
 int n = 99;
 while(n > 1)
 {
@@ -136,7 +136,7 @@ while(n > 1)
     n--;
 }
 cout << "1 bottle of beer ..." << endl;
-```
+{% endhighlight %}
 
 The last case, when `n == 1`, is special so we put it outside the loop.
 
@@ -145,18 +145,18 @@ The last case, when `n == 1`, is special so we put it outside the loop.
 The `while()` loop is basically converted into an `if` and `goto`
 statement.  For example, this loop:
 
-```cpp
+{% highlight cpp %}
 int x = 0;
 while(x < 10)
 {
     cout << "blah";
     x++;
 }
-```
+{% endhighlight %}
 
 becomes this code:
 
-```cpp
+{% highlight cpp %}
 int x = 0;
 CHECK:          // name this line of code "CHECK"
 if(x < 10)
@@ -165,7 +165,7 @@ if(x < 10)
     x++;
     goto CHECK; // here is the "loop" action
 }
-```
+{% endhighlight %}
 
 > **loophole** *n.* **1** The escape route sought by a loop. **2**
 > *Metacomputer science* The conceptual gap left when a loop migrates
@@ -178,7 +178,7 @@ if(x < 10)
 The following program repeatedly asks the user for a letter; if the
 user ever types "q" then the program is done.
 
-```cpp
+{% highlight cpp %}
 char c;
 cout << "Enter a letter, 's' to skip the message,"
      << " 'q' to quit: ";
@@ -193,13 +193,13 @@ while(c != 'q')
          << " 'q' to quit: ";
     cin >> c;
 }
-```
+{% highlight %}
 
 This program is better written with a `do-while` loop because we want
 the `cout` and `cin` pair to be done even before the check. Here it is
 with `do-while`:
 
-```cpp
+{% highlight cpp %}
 char c;
 do
 {
@@ -212,37 +212,7 @@ do
         cout << "You typed " << c << endl;
     }
 } while(c != 'q');
-```
-
-## Newton example
-
-(This will be explained in class, and possibly explained here,
-eventually.)
-
-```cpp
-#include <iostream>
-#include <cmath>
-using namespace std;
-
-int main()
-{
-    double x1, x2;
-    
-    // initial guess
-    x1 = 2.0;
-    x2 = x1 - (-2*sin(cos(sqrt(x1))))
-                / ((cos(cos(sqrt(x1)))*sin(sqrt(x1)))
-               / sqrt(x1));
-    while(fabs(x2-x1) > 0.00001)
-    {
-        x1 = x2;
-        x2 = x1 - (-2*sin(cos(sqrt(x1))))
-                        / ((cos(cos(sqrt(x1)))*sin(sqrt(x1)))
-                       / sqrt(x1));
-    }
-    cout << x2 << endl;
-}
-```
+{% endhighlight %}
 
 ## for() loop
 
@@ -257,12 +227,12 @@ how `for` loops work.
 
 This is the basic structure of a `for` loop:
 
-```cpp
+{% highlight cpp %}
 for(initialization; conditional; update)
 {
     // do stuff...
 }
-```
+{% endhighlight %}
 
 This is what the three parts inside the parentheses (commonly) mean:
 
@@ -295,7 +265,7 @@ It's useful to see how a `while` loop can be converted to a `for`
 loop. In this example, the `while` loop and the `for` loop are
 (nearly) equivalent:
 
-```cpp
+{% highlight cpp %}
 int i = 0;
 while(i < 10)
 {
@@ -307,7 +277,7 @@ for(int i = 0; i < 10; i++)
 {
     // do stuff...
 }
-```
+{% endhighlight %}
 
 (The two are only "nearly" equivalent for the following reason: in the
 `while` loop case, the integer `i` is declared outside of the loop, so
@@ -333,7 +303,7 @@ A `for` loop need not have anything in any of the three components. If
 none of the components have code in them, it is equivalent to an
 infinite loop. In other words, these two loops are equivalent:
 
-```cpp
+{% highlight cpp %}
 while(true)
 {
     // do stuff forever... (or until "break" is encountered)
@@ -342,24 +312,24 @@ for(;;)
 {
     // do stuff forever... (or until "break" is encountered)
 }
-```
+{% endhighlight %}
 
 Here is the bottles-of-beer example again, this time using a `for`
 loop:
 
-```cpp
+{% endhighlight %}
 for(int n = 99; n > 1; n--)
 {
     cout << n << " bottles of beer..." << "take one down..."
          << (n-1) << " bottles of beer..." << endl;
 }
 cout << "1 bottle of beer ..." << endl;
-```
+{% endhighlight %}
 
 Here is an example that is equivalent to
 &Sigma;<sup>100</sup><sub>j=1</sub> &Sigma;<sup>100</sup><sub>k=1</sub> (j+k)^2
 
-```cpp
+{% highlight cpp %}
 int sum = 0;
 for(int j = 1; j <= 100; j++)
 {
@@ -368,11 +338,11 @@ for(int j = 1; j <= 100; j++)
         sum += (j+k)*(j+k);
     }
 }
-```
+{% endhighlight %}
 
 Here is an example that prints a triangle of stars:
 
-```cpp
+{% highlight cpp %}
 // the maximum width of a line of stars
 int width = 30;
 
@@ -399,7 +369,7 @@ for(int i = 2; i <= width; i += 2)
     // print newline
     cout << endl;
 }
-```
+{% endhighlight %}
 
 Here is the result:
 
@@ -425,7 +395,7 @@ Here is the result:
 Let's fix that extra blank line at the bottom. We will check if the
 loop is on the last iteration; if it is, we don't print the last line:
 
-```cpp
+{% highlight cpp %}
 // the maximum width of a line of stars
 int width = 30;
 
@@ -455,7 +425,7 @@ for(int i = 2; i <= width; i += 2)
         cout << endl;
     }
 }
-```
+{% endhighlight %}
 
 Notice that in each of these examples, we are doing `stuff` some
 particular number of times (the number of times is already known, like
@@ -473,7 +443,7 @@ that blocks begin and end with `{` and `}`), we are creating nested
 structures (blocks inside blocks). We can visualize this with a
 diagram of the following program:
 
-```cpp
+{% highlight cpp %}
 // This program finds the greatest common divisor (gcd)
 // of two integers a & b, using Euclid's method.
 
@@ -503,7 +473,7 @@ int main()
     cout << "GCD is " << a << endl;
     return 0;
 }
-```
+{% highlight %}
 
 ![Nesting diagram](/cse230/images/nesting-diagram.png "Nesting diagram")
 
