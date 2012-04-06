@@ -93,7 +93,7 @@ string s;
 // get a whole line of text from the user
 // and save into the variable s
 getline(cin, s);
-{% highlight %}
+{% endhighlight %}
 
 That method gets a whole line of text, which could have spaces.
 
