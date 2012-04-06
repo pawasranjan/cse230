@@ -33,17 +33,17 @@ values in it; the value can be anything, of course (a `double`, an
 though that's a little funny to think about).  The pointer is
 necessary in order to create the chain.
 
-```CPP
+{% highlight cpp %}
 class Node {
 public:
     double value;
     Node* pnext;
 };
-```
+{% endhighlight %}
 
 Now we can make a single node:
 
-{% highlight ruby %}
+{% highlight cpp %}
 Node* n = new Node;
 n->value = -130.569;
 {% endhighlight %}
@@ -53,13 +53,11 @@ another class:
 
 
 {% highlight cpp %}
-
 class List {
 public:
     Node* first;
     int count;
 };
-
 {% endhighlight %}
 
 And now we can make a bona fide list:
