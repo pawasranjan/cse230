@@ -193,7 +193,7 @@ while(c != 'q')
          << " 'q' to quit: ";
     cin >> c;
 }
-{% highlight %}
+{% endhighlight %}
 
 This program is better written with a `do-while` loop because we want
 the `cout` and `cin` pair to be done even before the check. Here it is
@@ -317,7 +317,7 @@ for(;;)
 Here is the bottles-of-beer example again, this time using a `for`
 loop:
 
-{% endhighlight %}
+{% highlight cpp %}
 for(int n = 99; n > 1; n--)
 {
     cout << n << " bottles of beer..." << "take one down..."
@@ -473,7 +473,7 @@ int main()
     cout << "GCD is " << a << endl;
     return 0;
 }
-{% highlight %}
+{% endhighlight %}
 
 ![Nesting diagram](/cse230/images/nesting-diagram.png "Nesting diagram")
 
