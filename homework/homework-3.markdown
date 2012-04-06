@@ -5,7 +5,7 @@ layout: default
 
 From the book, page 440, question 13.
 
-**Due Apr 23, 11pm (Mon)**
+**Due Apr 23, 11pm (Mon).**
 
 Skills needed to complete this assignment:
 
