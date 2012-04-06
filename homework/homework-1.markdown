@@ -39,7 +39,7 @@ done. Don't forget the loop!
 
 Here is an example of how to get a `char` input and check its value:
 
-```cpp
+{% highlight cpp %}
 char c;
 cout << "Enter a card (2-9, t, j, q, k or a): ";
 cin >> c;
@@ -54,5 +54,4 @@ switch(c)
         break;
     // etc.
 }
-```
-
+{% endhighlight %}
