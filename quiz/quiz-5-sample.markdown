@@ -4,7 +4,7 @@ layout: default
 ---
 
 Study the
-[object orientation lecture notes](/lecture/classes-and-object-orientation.html)
+[object orientation lecture notes](/cse230/lecture/classes-and-object-orientation.html)
 to prepare for this quiz.
 
 Be able to answer all of the following questions (in English, not
