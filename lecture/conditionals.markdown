@@ -31,18 +31,18 @@ number between 1 and 10. Here is what the program should do (in pseudo-code):
 
 In C++, we have a command called `if`. This is what it looks like:
 
-```cpp
+{% highlight cpp %}
 if(...something...)
 {
     // do stuff...
 }
-```
+{% endhighlight %}
 
 Of course, we need to change the phrase `...something...` to a "conditional."
 The if command expects something that results in a `bool` value. So we can use
 `bool` values like `true` and `false`:
 
-```cpp
+{% highlight cpp %}
 if(true)
 {
     // do stuff...
@@ -51,7 +51,7 @@ if(false)
 {
     // do stuff...
 }
-```
+{% endhighlight %}
 
 But these conditionals (`true` and `false`) are not very interesting because in
 the first case, the stuff inside the `if` block will always be executed (a
@@ -85,7 +85,7 @@ More interesting conditionals may involve the following boolean operators
 
 So we can write our guessing program like this:
 
-```cpp
+{% highlight cpp %}
 #include <iostream>
 using namespace std;
 int main()
@@ -129,7 +129,7 @@ int main()
     
     return -1;
 }
-```
+{% endhighlight %}
 
 
 ## if/else
@@ -137,7 +137,7 @@ int main()
 Besides `if` we can also use `else` to specify some operations that should be
 executed if the conditional is *not* satisfied. Example:
 
-```cpp
+{% highlight cpp %}
 if(x == 5)
 {
     cout << "x equals 5!" << endl;
@@ -146,13 +146,13 @@ else
 {
     cout << "x does not equal 5!" << endl;
 }
-```
+{% endhighlight %}
 
 ## Nested if's
 
 `if` commands can be inside other `if` (or `else`) blocks:
 
-```cpp
+{% highlight cpp %}
 if(x < 5)
 {
     if(x < 0)
@@ -168,14 +168,14 @@ else
 {
     cout << "x is not less than 5!" << endl;
 }
-```
+{% endhighlight %}
 
 ## Series of if/else's
 
 It is common practice to check a series of conditions, where you only expect
 one of them to be true:
 
-```cpp
+{% highlight cpp %}
 if(x == 0)
 {
     // do stuff...
@@ -192,7 +192,7 @@ else
 {
     // fallback...
 }
-```
+{% endhighlight %}
 
 ## An example of nested if's and an if/else-if chain
 
@@ -241,7 +241,7 @@ No real solution.
 
 The code:
 
-```cpp
+{% highlight cpp %}
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -287,7 +287,7 @@ int main()
 
     return 0;
 }
-```
+{% endhighlight %}
 
 ## "switch" statements
 
@@ -301,7 +301,7 @@ integers.
 
 Here is an example.
 
-```cpp
+{% highlight cpp %}
 #include <iostream>
 using namespace std;
 int main()
@@ -331,11 +331,11 @@ int main()
     
     return 0;
 }
-```
+{% endhighlight %}
 
 The `switch` statement above can be rewritten with a series of if/else's:
 
-```cpp
+{% highlight cpp %}
 // the following is the same as the "switch" statement above
 if(number == 1)
 {
@@ -358,7 +358,7 @@ else
     cout << "You must have entered some other number."
          << endl;
 }
-```
+{% endhighlight %}
 
 Notice that an `if` is much more powerful: you can use very
 complicated conditionals. On the other hand, a `switch` is very
@@ -377,7 +377,7 @@ fail.
 You can also use a `switch` to determine which character a user typed,
 since characters are themselves just integers. Here is an example:
 
-```cpp
+{% highlight cpp %}
 #include <iostream>
 using namespace std;
 int main()
@@ -401,7 +401,7 @@ int main()
     
     return 0;
 }
-```
+{% endhighlight %}
 
 ## Another view of the "if" construct
 
@@ -409,7 +409,7 @@ It turns out that, in C and C++, any integer that's not zero is considered a
 "true" value, and zero is considered the singular "false" value. Thus, these
 are equivalent:
 
-```cpp
+{% highlight cpp %}
 int x = 5;
 if(x != 0)
 {
@@ -419,7 +419,7 @@ if(x)
 {
     cout << "x is not equal to zero." << endl;
 }
-```
+{% endhighlight %}
 
 Actually, the details are more gruesome than this. So it's best to avoid such
 trickery.
@@ -430,10 +430,10 @@ trickery.
 > next instruction without tiresome, trivial, testing diversions.
 >
 > Some programmers see `if` as the soul of machine intelligence. Thus,
-```cpp
+{% highlight cpp %}
 if(CurBankBal <= 0) errmsg("Spendthrift scoundrel!");
 else exit(0);
-```
+{% endhighlight %}
 >
 > forms the core of many a smart, ethical money manager. The home-exit loving,
 > non-judgmental process, however, reluctantly forced to test transient bits of
@@ -464,7 +464,7 @@ else exit(0);
 > function return an instructive error code, it is necessary to rephrase the
 > question pessimistically: Did the function fail? Yes, `TRUE`! Why did it
 > fail? Test the nonzero return value:
-```cpp
+{% highlight cpp %}
 if(e = f()) { // did f() fail?
   switch(e) { // why?
     case 1: // one reason for failure
@@ -477,7 +477,7 @@ if(e = f()) { // did f() fail?
   }
 }
 // success
-```
+{% endhighlight %}
 >
 > Some see life itself as a *huge* case statement. --
 > *The computer contradictionary*
