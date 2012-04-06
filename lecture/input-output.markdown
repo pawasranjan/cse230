@@ -128,7 +128,7 @@ int main()
     cout << "You entered " << x << endl;
     return 0;
 }
-{% highlight %}
+{% endhighlight %}
 
 For example,
 
