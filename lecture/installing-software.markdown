@@ -46,7 +46,7 @@ click "View in Mac App Store," or just search the Mac App Store.
 A great free open source software is no more.**
 
 **[Eclipse for C++](http://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/heliossr1) is 
-an alternative that is an excellent alternative. (Thanks to Daniel for telling me about this).**
+an excellent FREE alternative. (Thanks to Daniel for telling me about this).**
 
 ## Learning to use Linux command line
 
