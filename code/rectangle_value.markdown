@@ -27,9 +27,8 @@ int main() {
 
     print_rectangle(ra);
 
-    // We have to save the return value back into 'ra'
-    // since grow_rectangle modifies a copy of 'ra'
-    // that it recieved due to call by value.
+    // We have to save the return value back into 'ra' since grow_rectangle 
+    // modifies a copy of 'ra' that it recieved due to call by value.
     ra = grow_rectangle(ra);
     print_rectangle(ra);
 
