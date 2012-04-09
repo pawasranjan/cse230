@@ -37,8 +37,7 @@ int main() {
     return 0;
 }
 
-// Since we are not modifying the rectangle, 
-// we can simply make a call by value.
+// Since we are not modifying the rectangle, we can simply make a call by value.
 void print_rectangle(Rectangle r)
 {
     for(int i = 0; i < r.height; i++)
@@ -52,11 +51,9 @@ void print_rectangle(Rectangle r)
     cout << endl;
 }
 
-// The way in which class members are accessed 
-// changes as well.
-// We do not return the modified object, since 
-// we followed the pointer back to the original 
-// object and modified the original object itself.
+// The way in which class members are accessed changes as well.
+// We do not return the modified object, since we followed the pointer back to  
+// the original object and modified the original object itself.
 void grow_rectangle(Rectangle* pr)
 {
     (*pr).width += 2;
