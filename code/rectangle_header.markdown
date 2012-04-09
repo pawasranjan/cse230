@@ -30,11 +30,11 @@ class Rectangle
 
 };
 
-// Since width and height private, we are forced to use setProperties(int, int) to set them.
-// This allows us to enforce conditions on the input and also on how we set the values of 
-// width and height.
-// For example, here we force the width to be greater than height, regardless of the order 
-// in which the two numbers are supplied.
+// Since width and height private, we are forced to use setProperties(int, int) 
+// to set them.This allows us to enforce conditions on the input and also on 
+// how we set the values of width and height.
+// For example, here we force the width to be greater than height, regardless 
+// of the order in which the two numbers are supplied.
 void Rectangle::setProperties(int a, int b)
 {
     if(a > b)
