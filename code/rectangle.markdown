@@ -25,7 +25,8 @@ int main() {
     cout << endl << "::Shrinking Rectangle::" << endl << endl;
     ra.diminish();
 
-    cout << "Final width and height: " << ra.getWidth() << ", " << ra.getHeight() << endl;
+    cout << "Final width and height: " << ra.getWidth() 
+                               << ", " << ra.getHeight() << endl;
 
     return 0;
 }
