@@ -49,6 +49,9 @@ void Rectangle::setProperties(int a, int b)
     }
 }
 
+// Since a member function is called by a particular object, we can refer 
+// the other members (both data and functions) directly, i.e. without the dot 
+// notation (r.width, r.height etc).
 int Rectangle::getWidth() {return width;}
 
 int Rectangle::getHeight() {return height;}
