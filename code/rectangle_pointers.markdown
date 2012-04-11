@@ -59,8 +59,8 @@ void grow_rectangle(Rectangle* pr)
     (*pr).width += 2;
     (*pr).height += 2;
     // Equivalent code: (shorthand)
-    // pr->width += 3;
-    // pr->height += 3;
+    // pr->width += 2;
+    // pr->height += 2;
 }
 
 void shrink_rectangle(Rectangle* pr)
@@ -68,7 +68,7 @@ void shrink_rectangle(Rectangle* pr)
     (*pr).width -= 2;
     (*pr).height -= 2;
     // Equivalent code: (shorthand)
-    // pr->width -= 3;
-    // pr->height -= 3;
+    // pr->width -= 2;
+    // pr->height -= 2;
 }
 {% endhighlight %}
