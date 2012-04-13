@@ -11,7 +11,7 @@ you can think of each element sitting right next to its siblings
 somewhere in memory. Here is an example of how we create arrays, and
 give them their values:
 
-![Create an array](/images/array-1_0.png "Create an array")
+![Create an array](/cse230/images/array-1_0.png "Create an array")
 
 {% highlight cpp %}
 // "int arr[6];" means create an integer array with 6 elements
@@ -23,7 +23,7 @@ cout << arr[5] << endl;  // prints 0
 
 We can change the values of an array in the same way:
 
-![Modify an array](/images/array-2_0.png "Modify an array")
+![Modify an array](/cse230/images/array-2_0.png "Modify an array")
 
 {% highlight cpp %}
 arr[1] = 9;
