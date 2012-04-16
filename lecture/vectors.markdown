@@ -72,8 +72,6 @@ for(int i = 0; i < vals.size(); i++)
 }
 {% endhighlight %}
 
-TODO: back(), pop_back()
-
 ## Example 1 - simple vector
 
 {% highlight cpp %}
