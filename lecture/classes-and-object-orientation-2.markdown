@@ -341,7 +341,7 @@ When a class inherits from another class, often the subclass will want
 to have its own constructors that refer back to the parent class's
 constructors. For example, consider the following class hierarchy:
 
-![Bank Account UML diagram](/images/bankaccount-uml.png "Bank Account UML diagram")
+![Bank Account UML diagram](/cse230/images/bankaccount-uml.png "Bank Account UML diagram")
 
 The `BankAccount` class should have a constructor that allows the
 `owner` and `balance` properties to be set:
