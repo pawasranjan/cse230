@@ -120,7 +120,7 @@ We really want a player to be a "kind of" agent and an agent a "kind
 of" object. This is called "inheritance." We can diagram it like so
 (in "UML" format):
 
-![Class diagram (no methods)](/images/class-diagram-no-methods.png "Class diagram (no methods)")
+![Class diagram (no methods)](/cse230/images/class-diagram-no-methods.png "Class diagram (no methods)")
 
 The arrows mean that a class *inherits* properties from the parent
 class (what an arrow points to). So a Player automatically has the
@@ -133,7 +133,7 @@ we put functions inside the classes themselves. (And we call typically
 them "methods" when we do that, rather than "functions.") So our
 diagram now shows methods as well:
 
-![Class diagram (with methods)](/images/class-diagram-methods.png "Class diagram (with methods)")
+![Class diagram (with methods)](/cse230/images/class-diagram-methods.png "Class diagram (with methods)")
 
 Classes inherit methods as well as properties. So the Player class
 automatically has access to the method `walk_one_step()`, which comes
