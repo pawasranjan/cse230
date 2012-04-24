@@ -133,7 +133,7 @@ we put functions inside the classes themselves. (And we call typically
 them "methods" when we do that, rather than "functions.") So our
 diagram now shows methods as well:
 
-![Class diagram (with methods)](/cse230/images/class-diagram-methods.png "Class diagram (with methods)")
+![Class diagram (with methods)](/cse230/images/class-diagram-methods.png "Class diagram [with methods]")
 
 Classes inherit methods as well as properties. So the Player class
 automatically has access to the method `walk_one_step()`, which comes
@@ -294,6 +294,6 @@ This means that `position_y` in the method is the `position_y` of the
 `me` object.
 
 Continue to
-[Classes and object orientation (part 2)](/lecture/classes-and-object-orientation-2.html)
+[Classes and object orientation (part 2)](/cse230/lecture/classes-and-object-orientation-2.html)
 to learn how to create complete programs.
 
