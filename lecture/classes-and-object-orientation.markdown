@@ -120,7 +120,7 @@ We really want a player to be a "kind of" agent and an agent a "kind
 of" object. This is called "inheritance." We can diagram it like so
 (in "UML" format):
 
-![Class diagram (no methods)](/cse230/images/class-diagram-no-methods.png "Class diagram (no methods)")
+![Class diagram (no methods)](/cse230/images/class-diagram-no-methods.png "Class diagram [no methods]")
 
 The arrows mean that a class *inherits* properties from the parent
 class (what an arrow points to). So a Player automatically has the
