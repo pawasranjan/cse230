@@ -9,11 +9,11 @@ classes in C++.
 ## A more concrete example
 
 Actually writing a game in C++ (like we discussed in
-[Classes and object orientation](/lecture/classes-and-object-orientation.html))
+[Classes and object orientation](/cse230/lecture/classes-and-object-orientation.html))
 is too much work for right now. Let's bring the discussion back to
 something very basic: a Shape class and some subclasses.
 
-![Shape diagram](/images/shape-uml.png "Shape diagram")
+![Shape diagram](/cse230/images/shape-uml.png "Shape diagram")
 
 Now we'll write the C++ code. First, the Shape class.
 
@@ -341,7 +341,7 @@ When a class inherits from another class, often the subclass will want
 to have its own constructors that refer back to the parent class's
 constructors. For example, consider the following class hierarchy:
 
-![Bank Account UML diagram](/cse230/images/bankaccount-uml.png "Bank Account UML diagram")
+![Bank Account UML diagram](/cse230/cse230/images/bankaccount-uml.png "Bank Account UML diagram")
 
 The `BankAccount` class should have a constructor that allows the
 `owner` and `balance` properties to be set:
