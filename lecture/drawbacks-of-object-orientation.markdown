@@ -20,7 +20,7 @@ circle is an ellipse in which the major and minor axes are equal.
 You might expect to create an ellipse class that has a major and minor
 axis, and a circle class that inherits from it:
 
-![Circle-Ellipse diagram](/images/circle-ellipse-1.png "Circle-Ellipse diagram")
+![Circle-Ellipse diagram](/cse230/images/circle-ellipse-1.png "Circle-Ellipse diagram")
  
 However, in such a class model, the Circle class inherits all the
 properties and functions of the Ellipse class. This allows a user of
@@ -36,7 +36,7 @@ not guarantee a circle cannot turn into an ellipse.
 A different approach could be to make Circle and Ellipse completely
 separate:
 
-![Circle-Ellipse diagram](/images/circle-ellipse-2.png "Circle-Ellipse diagram")
+![Circle-Ellipse diagram](/cse230/images/circle-ellipse-2.png "Circle-Ellipse diagram")
  
 But that seems like a significant failure of OO to model the real
 world.
@@ -44,7 +44,7 @@ world.
 For yet another alternative, the `set_major_axis` and `set_minor_axis`
 functions can be virtual (not pure virtual):
 
-![Circle-Ellipse diagram](/images/circle-ellipse-3.png "Circle-Ellipse diagram")
+![Circle-Ellipse diagram](/cse230/images/circle-ellipse-3.png "Circle-Ellipse diagram")
  
 The Circle class can reimplement these functions so that any call to
 `set_major_axis` also sets the minor axis (to the same value), and
