@@ -235,7 +235,7 @@ Cellular automata is serious research; see a
 [list of journals](http://uncomp.uwe.ac.uk/genaro/Cellular_Automata_Repository/Journals.html)
 that publish articles about cellular automata.
 
-**Code template for the homework using vectors. This is an outline for just one of the many possible ways of 
+**Code template for the homework using vectors (to be precise, a vector of vector of 'char'). This is an outline for just one of the many possible ways of 
 tackling this problem. You are, of course, free to use any method you are comfortable with, so long as the 
 program simulates Conway's Game of Life.**
 
@@ -247,9 +247,12 @@ program simulates Conway's Game of Life.**
 #include<cstdlib>
 using namespace std;
 
-#define ROWS 20
+// You can change the size of your world matrix in your entire code 
+// just by changing the values of ROWS and COLS here.
+#define ROWS 21
 #define COLS 80
 
+// You can change the characters used to represent DEAD and ALIVE cells here
 #define DEAD  ' '
 #define ALIVE '*'
 
@@ -271,6 +274,7 @@ void generation(vector< vector<char> > &world,
 void display(vector< vector<char> > &world)
 {
     // display the 2D matrix
+    // You can add more code to 'beautify' the display of the matrix
     for(int i = 0; i < ROWS; i++)
         {
             for(int j = 0; j < COLS; j++)
@@ -286,7 +290,7 @@ int main()
     vector< vector<char> > world(ROWS, vector<char>(COLS, DEAD));
     vector< vector<char> > copy(ROWS, vector<char>(COLS, DEAD));
 
-    // set some cells of world to ALIVE for initital configuration
+    // set some cells of world to ALIVE for initial configuration
     world[1][1] = world[1][2] = world[1][3] = ALIVE;
 
     while(true)
