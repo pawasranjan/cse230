@@ -30,7 +30,7 @@ Private variables/methods start with a dash (-), protected variables/methods
 start with a hash (#), and public variables/methods start with a plus (+). Pure
 virtual methods are bold and italicized.
 
-![Game UML](/images/grues-uml.png "Game UML")
+![Game UML](/cse230/images/grues-uml.png "Game UML")
 
 Here is my `main()` function:
 
