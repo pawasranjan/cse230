@@ -4,7 +4,7 @@ layout: default
 ---
 
 Trees are structurally a lot like
-[linked lists](/lecture/linked-lists.html). Actually, a linked list is
+[linked lists](/cse230/lecture/linked-lists.html). Actually, a linked list is
 a simplistic kind of tree. Recall that a linked list "node" had a
 value and a "next" pointer. The tree structure also has (one or more)
 values plus (one or more) pointers:
@@ -52,7 +52,7 @@ we will concern ourselves only with trees.
 ## Building a tree
 
 The rest of these lecture notes will refer specifically to
-[Homework 4](/homework/homework-4.html) requirements.
+[Homework 4](/cse230/homework/homework-4.html) requirements.
 
 In Homework 4, each tree node contains two values (besides the
 pointers): a `string op` value and a `double val` value. The idea is
@@ -138,7 +138,7 @@ a subtree there is on the left side or the right side. So we cannot
 simply set up a loop to process the left and right subtrees; instead,
 we must resort to a recursive procedure.
 
-Recall, from the [Recursion lecture notes](/lecture/recursion.html),
+Recall, from the [Recursion lecture notes](/cse230/lecture/recursion.html),
 that a recursive procedure (recursive function) refers back to
 itself. Also, notice that the description above of how to print the
 contents of the tree was a recursive description: "print a `(`, then
