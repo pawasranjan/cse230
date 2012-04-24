@@ -235,7 +235,7 @@ Cellular automata is serious research; see a
 [list of journals](http://uncomp.uwe.ac.uk/genaro/Cellular_Automata_Repository/Journals.html)
 that publish articles about cellular automata.
 
-**Code template for the homework using vectors (to be precise, a vector of vector of 'char'). This is an outline for just one of the many possible ways of 
+**Code template for the homework using vectors (to be precise, a vector of vector of `char`s). This is an outline for just one of the many possible ways of 
 tackling this problem. You are, of course, free to use any method you are comfortable with, so long as the 
 program simulates Conway's Game of Life.**
 
