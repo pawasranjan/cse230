@@ -74,7 +74,7 @@ Let's write the code for the `area` functions. We could have written
 the code in the class declaration, but it's more common to write the
 code *outside* the class declaration (actually, in `.cpp` files,
 whereas the class declarations above are in `.h` files). If we just
-write `void area() { ... }` then the compiler won't know which `area`
+write `double area() { ... }` then the compiler won't know which `area`
 function we are defining (is it Rectangle's?  is it Triangle's?). So
 we use the `::` syntax to indicate which class method we are defining.
 
