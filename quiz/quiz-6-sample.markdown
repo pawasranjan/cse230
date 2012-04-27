@@ -38,5 +38,5 @@ What's a good object-oriented design for this problem?
 
 Here is my solution:
 
-![My solution](/images/quiz-7_0.jpg "My solution")
+![My solution](/cse230/images/quiz-7_0.jpg "My solution")
 
