@@ -259,7 +259,7 @@ public:
     void print();
 };
 
-void readRectangle(); // <--- new
+Rectangle readRectangle(); // <--- new
 {% endhighlight %}
 
 The `readRectangle` function may be defined as follows.
