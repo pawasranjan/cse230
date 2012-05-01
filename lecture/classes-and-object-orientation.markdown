@@ -3,6 +3,17 @@ title: Classes and object orientation
 layout: default
 ---
 
+**Note: Code for the complex numbers class discussed during lectures can be found here:
+
+[complex.h](/cse230/code/complex_h.html) : Contains the declaration of the Complex class
+
+[complex.cpp](/cse230/code/complex_cpp.html) : Contains definitions of the functions belonging to class Complex
+
+[main.cpp](/cse230/code/complex_main_cpp.html) : Contains main() function that uses the Complex class
+
+All the files need to be put together under the same project in Visual Studio/CodeBlocks/Xcode/Eclipse
+(just like Homework 4).**
+
 Imagine we're writing a game. We'll need "data structures"
 (collections of variables) to represent player characters (PCs; the
 characters controlled by humans), non-player characters (NPCs; the
