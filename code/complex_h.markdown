@@ -19,7 +19,7 @@ class Complex
 
 	Complex add(Complex&);
 
-        Complex operator+ (Complex&);
+	Complex operator+ (Complex&);
 	Complex operator- (Complex&);
 	Complex operator* (Complex&);
 	Complex operator/ (Complex&);
