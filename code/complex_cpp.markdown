@@ -65,13 +65,13 @@ Complex Complex::add(Complex &rhs)
 */
 Complex Complex::operator+ (Complex &rhs)
 {
-    // (a + bi) - (c + di) = (a+c) + (b+d)i
+    // (a + bi) + (c + di) = (a+c) + (b+d)i
     // double a = r     ; double b = i;
     // double c = rhs.r ; double d = rhs.i;
     // double nr = a + c;
     // double ni = b + d;
     // Complex tmp(nr, ni);
-        //return tmp;
+    // return tmp;
     return Complex(r + rhs.r, i + rhs.i);
 }
 
