@@ -15,8 +15,8 @@ Skills needed to complete this assignment:
   - Splitting code into several files
     ([lecture notes](/cse230/lecture/splitting-code.html))
 
-(See [rectangle.cpp](/cse230/code/rectangle-cpp.html) for an example from
-class that's similar to this assignment.)
+(The complex class on [Classes and object orientation](/cse230/lecture/classes-and-object-orientation.html) 
+page for an example that is similar to this assignment.)
 
 Write a rational number class. This problem is revisited in Chapter 11
 (in the book), where operator overloading will make the problem much
@@ -51,6 +51,8 @@ operation suggested by the name (e.g. `num1.less(num2)` returns true
 if the rational number `num1` is less than the rational number
 `num2`). Provide a member function `neg` that has no parameters and
 returns a rational number that is the negative of the calling object.
+
+**Extra points: Also use operator overloading to implement `add` (`+`), `sub` (`-`), `mul` (`*`), `div` (`/`), `less` (`<`) and `neg` (`-`). [5 Points]**
 
 Also provide a member function `print` that simply prints the rational
 number in a format like `-9/13`.
