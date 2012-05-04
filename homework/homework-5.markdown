@@ -15,7 +15,7 @@ Skills needed to complete this assignment:
   - Splitting code into several files
     ([lecture notes](/cse230/lecture/splitting-code.html))
 
-(The complex class on [Classes and object orientation](/cse230/lecture/classes-and-object-orientation.html) 
+(See the Complex class on [Classes and object orientation](/cse230/lecture/classes-and-object-orientation.html) 
 page for an example that is similar to this assignment.)
 
 Write a rational number class. This problem is revisited in Chapter 11
