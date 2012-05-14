@@ -3,7 +3,7 @@ title: Homework 8
 layout: default
 ---
 
-**Due May 29, 11pm (Mon).**
+**Due June 1, 11pm (Fri).**
 
 Skills needed to complete this assignment:
 
