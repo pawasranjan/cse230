@@ -3,7 +3,11 @@ title: Quiz 6 sample
 layout: default
 ---
 
-You will be asked to draw an object-oriented diagram, like the ones we
+There will be questions about basics of object-oriented programming 
+in C++ (similar to [Quiz 5](/cse230/quiz/quiz-5-sample.html)). The questions 
+will cover inheritance, overloading, polymorphism and template programming.
+
+You will also be asked to draw an object-oriented diagram, like the ones we
 have seen in class and have appeared in the lecture notes on this
 website. The diagram should represent a good object-oriented structure
 that could be used to solve a particular problem. The diagram should
@@ -39,4 +43,3 @@ What's a good object-oriented design for this problem?
 Here is my solution:
 
 ![My solution](/cse230/images/quiz-7_0.jpg "My solution")
-
