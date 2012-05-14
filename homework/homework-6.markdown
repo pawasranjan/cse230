@@ -5,7 +5,7 @@ layout: default
 
 From the book, p. 875 q. 9. 
 
-**Due May 15, 11pm (Mon).**
+**Due May 16, 11pm (Wed).**
 
 Skills needed to complete this assignment:
 
