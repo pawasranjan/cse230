@@ -49,7 +49,7 @@ The `Room` class should have at least these methods:
 * a constructor that sets the `name` and `description`
 * `string getName()`
 * `string getDescription()`
-* `void link(Room *r, string direction)` -- establish a link between rooms
+* `void link(string direction, Room *r)` -- establish a link between rooms
 * `Room *getLinked(string direction)` -- get the room linked in some direction
 * `void printLinked()` -- print all rooms linked to this room
 
